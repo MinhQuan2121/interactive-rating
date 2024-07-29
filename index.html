@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="app">
+    <!-- submit -->
+    <div class="rating">
+      <div class="rating__icon"><img src="./images/icon-star.svg"></div>
+      <div><h1 class="rating__title">How did we do?</h1>
+        <p class="rating__para">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p></div>
+      <ul class="rating__menu">
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+      </ul>
+      <button type="button" class="btn">Submit</button>
+    </div>
+    
+    <!-- thankyou -->
+    <div class="thankyou">
+      <div class="thankyou__image"><img src="./images/illustration-thank-you.svg" alt=""></div>
+      <h4 class="thankyou__score">You selected <span>4</span> out of 5</h4>
+      <div>
+        <h1 class="thankyou__title">Thank you!</h1>
+        <p class="thankyou__para">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Minhquan721</a>.
+  </div>
+</body>
+</html>
